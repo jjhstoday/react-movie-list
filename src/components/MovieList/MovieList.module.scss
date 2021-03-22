@@ -12,10 +12,14 @@
   position: relative;
 
   .movieTitle {
+    width: 300px;
     position: absolute;
     top: 30px;
     left: 100px;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   .movieInfo {
